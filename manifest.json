@@ -1,17 +1,32 @@
-  
 {
-  "name": "Hany Biography",
-  "short_name": "HanyBiography",
-  "start_url": "index.html",
+  "theme_color": "#bd10e0",
+  "background_color": "#f63567",
   "display": "standalone",
-  "background_color": "#fdfdfd",
-  "theme_color": "#db4938",
-  "orientation": "portrait-primary",
+  "scope": "/",
+  "start_url": "/index.html",
+  "name": "Hany Personal Website",
+  "short_name": "Hany Personal Website",
+  "description": "Hany Personal Website",
   "icons": [
-    {
-      "src" : "./assets/img/apple-touch-icon.png",
-      "type" : "image/png",
-      "sizes" : "72x72"
-    }
+      {
+          "src": "./assets/icons/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+      },
+      {
+          "src": "./assets/icons/icon-256x256.png",
+          "sizes": "256x256",
+          "type": "image/png"
+      },
+      {
+          "src": "./assets/icons/icon-384x384.png",
+          "sizes": "384x384",
+          "type": "image/png"
+      },
+      {
+          "src": "./assets/icons/icon-512x512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+      }
   ]
 }
