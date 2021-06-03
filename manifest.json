@@ -1,14 +1,3 @@
-// Manifest adalah JSON yang sederhana yang menjelaskan secara sistematik dan terstruktur mengenai aplikasi kita
-// Berikut penjelasan pengaturan dari manifest : 
-// theme_color : warna tema aplikasi
-// background_color : warna background aplikasi
-// display : standalone berarti aplikasi nantinya akan berjalan sendiri terpisah dari broser
-// scope : pengaturan scope digunakan untuk navigasi scope web browser
-// start_url : digunakan untuk mengatur halaman mana yang akan dibuka pertama kali setelah splash screen
-// name : digunakan untuk mengatur nama aplikasi
-// short_name : digunakan untuk mengatur nama launcher
-// description : digunakan untuk memberi penjelasan tentang aplikasi
-// icons : digunakan untuk icon aplikasi dengan kontek yang berbeda
 {  
   "theme_color": "#bd10e0",
   "background_color": "#f63567",  
