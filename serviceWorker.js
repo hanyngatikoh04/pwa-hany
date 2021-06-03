@@ -7,6 +7,7 @@ const assets = [
   'portfolio-details.html',
   'assets/img/favicon.png',
   'assets/img/apple-touch-icon.png',
+  'assets/img/profile.jpg',
   'assets/vendor/aos/aos.css',  
   'assets/vendor/bootstrap/css/bootstrap.min.css',
   'assets/vendor/bootstrap-icons/bootstrap-icons.css',
@@ -25,6 +26,9 @@ const assets = [
   'assets/js/main.js',
   'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i',
   'assets/img/profile-img.jpg',
+  'assets/img/portfolio/portfolio-1.jpg',
+  'assets/img/portfolio/portfolio-2.jpg',
+  'assets/img/portfolio/portfolio-3.jpg',
   'assets/img/portfolio/portfolio-details-1.jpg',
   'assets/img/portfolio/portfolio-details-2.jpg',
   'assets/img/portfolio/portfolio-details-3.jpg'
