@@ -278,12 +278,11 @@
 
     <script>
 	    (function() {
-	      // mengecek apakah browser support dengan service worker atau tidak
+	      // mengecek apakah browser support dengan service worker
 	      if ('serviceWorker' in navigator) {
-	        // while page loaded
 	        window.addEventListener('load', function() {
 	          // melakukan registrasi service worker
-	          navigator.serviceWorker.register('sw.js').then(function(reg) {
+	          navigator.serviceWorker.register('assets/js/sw.js').then(function(reg) {
 	            console.log('service worker installation success on: ', reg.scope)
 	          }, function(err) {
 	            console.log('service worker installation failed', err)
